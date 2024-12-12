@@ -11,7 +11,7 @@ image_path = "Mushroom.webp"
 image0 = Image.open(image_path)
 
 image0_np = np.array(image0)
-print("Original Image Shape:", image0_np.shape)
+print("The dimension of the image_np is ", image0_np.shape)
 
 plt.imshow(image0)
 plt.title("Original Image (image0)")
